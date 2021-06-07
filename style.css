@@ -12,17 +12,30 @@ body {
 
 #fullname {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 15%;
+  left: 10%;
+  /* transform: translate(-50%, -50%); */
   animation: fill 0.5s ease forwards 1s;
 }
 
 
 #fullname path:nth-child(1){
-  stroke-dasharray: 2710.8px;
-  stroke-dashoffset: 2710.8px;
+  stroke-dasharray: 3592.5px;
+  stroke-dashoffset: 3592.5px;
   animation: line-animation 7.5s ease forwards;
+}
+
+#position {
+  position: absolute;
+  top: 42%;
+  left: 10%;
+}
+
+
+#position {
+  stroke-dasharray: 801.14px;
+  stroke-dashoffset: 801.14px;
+  animation: line-animation 1.2s ease forwards;
 }
 
 @keyframes line-animation {
